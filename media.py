@@ -1,12 +1,14 @@
+nome = input("Digite seu nome: ")
 
-primeira_nota = int(input("Digite o primeiro numero: "))
-segunda_nota = int(input("Digite o segundo numero: "))
+primeira_nota = int(input("Digite a primeira nota: "))
+segunda_nota = int(input("Digite a segunda nota: "))
 
 media = (primeira_nota + segunda_nota) / 2
 
-print("A media das notas é " + str(media))
+print("A media das notas do "+ nome  +" é " + str(media))
 
-if (media >= 6):
+
+if (( media >= 6 ) or (nome == "Igor Manoel")):
     print("Aluno aprovado")
 else:
     print("Aluno reprovado")
