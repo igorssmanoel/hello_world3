@@ -1,3 +1,4 @@
+
 primeira_nota = int(input("Digite o primeiro numero: "))
 segunda_nota = int(input("Digite o segundo numero: "))
 
