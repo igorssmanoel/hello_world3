@@ -1,0 +1,3 @@
+frase = input()
+
+print(frase)
